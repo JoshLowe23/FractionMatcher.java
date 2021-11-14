@@ -1,0 +1,63 @@
+Public class FractionMatcher
+{
+public class Fraction {
+    private int num, denom;
+    public Fraction ( int n, int d) {
+        num = n;
+        denom = d;
+        
+    }
+    public String toString{
+        retun "" + num + "/" + denom
+    }
+    public double getValue(){
+        return (double) num/denom; 
+    }
+
+import java.io.*;
+
+import java.util.Arrays;
+
+import java.util.Scanner;
+
+public class FractionMatcher {
+
+        public static void main(String[] args) throws IOException {
+                ArrayList<Fraction> fractions = new ArrayList<Fraction>
+                String fractionLine;
+                Scanner fileScan, fractionScan;
+                fileScan = new Scanner(new File("fractions.txt"));
+                
+                while (fileScan.hasNext())
+                {
+                    fractionLine = fileScan.nextLine();
+                    fractionScan = new Scanner (fractionLine);
+                    fractionScan.useDelimiter("/");
+                    String numString = fractionScan.next();
+                    Sting denomString = fractionScan.next();
+                    Fraction f = new Fraction(Integer.parseInt(numString), Integer.parseInt(denomString));
+                    fraction.add(f);
+                }
+                int i = fraction.size()-1;
+                for (Fraction f : fractions)
+                {
+                }
+                    System.out.println(f + " = " + f.getValue());
+            
+                
+                    
+                }
+                public static void main(String[] args)
+                {
+  Scanner input = new Scanner(System.in);
+                int num = 0;
+    System.out.print("Enter a number :");
+    num = input.nextInt();
+    
+                }
+                num compareTo(fraction.txt)
+                if (num = 0)
+                System.out.println(" Program terminated")
+                }
+}
+}
